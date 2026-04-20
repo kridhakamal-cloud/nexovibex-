@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nexovibex – 1000+ 4K HD Luxury Reels Bundle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --blue: #00cfff;
+    --purple: #a855f7;
+    --pink: #e040fb;
+    --gold: #f5c842;
+    --bg: #050508;
+    --surface: #0c0c14;
+    --surface2: #12121e;
+    --text: #e8e8f0;
+    --muted: #7878a0;
+    --glow-blue: 0 0 24px #00cfff88, 0 0 60px #00cfff33;
+    --glow-purple: 0 0 24px #a855f788, 0 0 60px #a855f733;
+    --glow-gold: 0 0 20px #f5c84288, 0 0 50px #f5c84233;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    overflow-x: hidden;
+  }
+
+  /* ── NOISE OVERLAY ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.4;
+  }
+
+  /* ── AMBIENT ORBS ── */
+  .orb {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(100px);
+    pointer-events: none;
+    z-index: 0;
+    animation: pulse-orb 8s ease-in-out infinite alternate;
+  }
+  .orb1 { width: 500px; height: 500px; background: radial-gradient(circle, #a855f722, transparent 70%); top: -150px; left: -150px; }
+  .orb2 { width: 400px; height: 400px; background: radial-gradient(circle, #00cfff18, transparent 70%); bottom: 10%; right: -100px; animation-delay: -4s; }
+  .orb3 { width: 350px; height: 350px; background: radial-gradient(circle, #e040fb14, transparent 70%); top: 40%; left: 30%; animation-delay: -2s; }
+
+  @keyframes pulse-orb {
+    from { transform: scale(1) translate(0,0); opacity: 0.6; }
+    to   { transform: scale(1.2) translate(20px, -20px); opacity: 1; }
+  }
+
+  /* ── UTILITY ── */
+  .container { max-width: 860px; margin: 0 auto; padding: 0 22px; position: relative; z-index: 1; }
+
+  .gradient-text {
+    background: linear-gradient(135deg, var(--blue) 0%, var(--purple) 50%, var(--pink) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gold-text {
+    background: linear-gradient(135deg, #f5c842, #ffaa00, #f5c842);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  section { padding: 80px 0; position: relative; }
+
+  .section-label {
+    font-family: 'Orbitron', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  h2.section-title {
+    font-family: 'Orbitron', monospace;
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    font-weight: 900;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  /* ── DIVIDER ── */
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--blue)55, var(--purple)55, transparent);
+    margin: 0;
+  }
+
+  /* ────────────────────────────────────────────
+     HERO
+  ──────────────────────────────────────────── */
+  #hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0 80px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* grid lines */
+  #hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,207,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,207,255,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 70% 70% at 50% 50%, black 0%, transparent 100%);
+    pointer-events: none;
+  }
+
+  .brand-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(0,207,255,0.08);
+    border: 1px solid rgba(0,207,255,0.3);
+    border-radius: 40px;
+    padding: 7px 20px;
+    font-family: 'Orbitron', monospace;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: var(--blue);
+    margin-bottom: 32px;
+    animation: fadeDown 0.8s ease both;
+  }
+  .brand-badge .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--blue); box-shadow: var(--glow-blue); animation: blink 1.4s ease-in-out infinite; }
+
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+  #hero h1 {
+    font-family: 'Orbitron', monospace;
+    font-size: clamp(2rem, 8vw, 3.6rem);
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    animation: fadeUp 0.9s 0.15s ease both;
+  }
+
+  #hero .subtitle {
+    font-size: clamp(1rem, 3vw, 1.3rem);
+    color: var(--muted);
+    margin-bottom: 12px;
+    animation: fadeUp 0.9s 0.25s ease both;
+  }
+
+  #hero .tagline {
+    font-family: 'Orbitron', monospace;
+    font-size: clamp(0.85rem, 2.5vw, 1rem);
+    letter-spacing: 3px;
+    color: var(--purple);
+    margin-bottom: 44px;
+    animation: fadeUp 0.9s 0.35s ease both;
+  }
+
+  .cta-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #0091cc, #7c3aed);
+    color: #fff;
+    font-family: 'Orbitron', monospace;
+    font-size: clamp(0.9rem, 2.5vw, 1.05rem);
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 18px 44px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0 30px #7c3aed55, 0 0 80px #00cfff22;
+    animation: fadeUp 0.9s 0.45s ease both, glow-pulse 2.5s 1.5s ease-in-out infinite alternate;
+  }
+  .cta-primary::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.15), transparent 60%);
+    border-radius: inherit;
+  }
+  .cta-primary::after {
+    content: '';
+    position: absolute;
+    top: -50%; left: -70%;
+    width: 40%; height: 200%;
+    background: rgba(255,255,255,0.18);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+  }
+  .cta-primary:hover::after { left: 140%; }
+  .cta-primary:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 0 50px #7c3aed88, 0 0 100px #00cfff33; }
+
+  @keyframes glow-pulse {
+    from { box-shadow: 0 0 30px #7c3aed55, 0 0 80px #00cfff22; }
+    to   { box-shadow: 0 0 60px #7c3aed99, 0 0 120px #00cfff44; }
+  }
+
+  .hero-note {
+    margin-top: 20px;
+    font-size: 13px;
+    color: var(--muted);
+    animation: fadeUp 0.9s 0.55s ease both;
+  }
+
+  /* ── SCROLL ARROW ── */
+  .scroll-arrow {
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 34px; height: 34px;
+    border-right: 2px solid var(--blue);
+    border-bottom: 2px solid var(--blue);
+    transform: translateX(-50%) rotate(45deg);
+    animation: bounce-arrow 1.6s ease-in-out infinite;
+    opacity: 0.5;
+  }
+  @keyframes bounce-arrow { 0%,100%{transform:translateX(-50%) rotate(45deg) translateY(0)} 50%{transform:translateX(-50%) rotate(45deg) translateY(8px)} }
+
+  /* ────────────────────────────────────────────
+     DESCRIPTION
+  ──────────────────────────────────────────── */
+  #description { background: var(--surface); }
+  #description .desc-box {
+    background: linear-gradient(135deg, rgba(0,207,255,0.04), rgba(168,85,247,0.04));
+    border: 1px solid rgba(0,207,255,0.15);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #bbbbd0;
+    position: relative;
+    overflow: hidden;
+  }
+  #description .desc-box::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--blue), var(--purple), transparent);
+  }
+
+  /* ────────────────────────────────────────────
+     HIGHLIGHTS
+  ──────────────────────────────────────────── */
+  .highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+
+  .highlight-card {
+    background: var(--surface2);
+    border: 1px solid rgba(0,207,255,0.12);
+    border-radius: 16px;
+    padding: 24px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  .highlight-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(0,207,255,0.04), rgba(168,85,247,0.04));
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: inherit;
+  }
+  .highlight-card:hover { border-color: rgba(0,207,255,0.4); transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,207,255,0.1); }
+  .highlight-card:hover::before { opacity: 1; }
+
+  .highlight-icon {
+    width: 48px; height: 48px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, rgba(0,207,255,0.15), rgba(168,85,247,0.15));
+    box-shadow: 0 0 20px rgba(0,207,255,0.1);
+  }
+
+  .highlight-text strong { display: block; font-size: 1rem; font-weight: 700; color: #e8e8f0; }
+  .highlight-text span { font-size: 0.82rem; color: var(--muted); }
+
+  /* ────────────────────────────────────────────
+     CONTENT
+  ──────────────────────────────────────────── */
+  #content { background: var(--surface); }
+
+  .content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .content-item {
+    background: var(--surface2);
+    border: 1px solid rgba(168,85,247,0.15);
+    border-radius: 14px;
+    padding: 20px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    color: #d0d0e8;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .content-item:hover { border-color: rgba(168,85,247,0.5); box-shadow: 0 0 20px rgba(168,85,247,0.1); }
+  .content-item .ci-dot { width: 10px; height: 10px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--purple)); flex-shrink: 0; }
+
+  /* ────────────────────────────────────────────
+     PRICE
+  ──────────────────────────────────────────── */
+  #price {
+    text-align: center;
+  }
+
+  .price-card {
+    background: linear-gradient(135deg, rgba(0,207,255,0.06), rgba(168,85,247,0.06));
+    border: 1px solid rgba(0,207,255,0.25);
+    border-radius: 28px;
+    padding: 60px 40px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+  }
+  .price-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--blue), var(--purple), var(--pink), transparent);
+  }
+
+  .price-label {
+    font-family: 'Orbitron', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .price-amount {
+    font-family: 'Orbitron', monospace;
+    font-size: clamp(3rem, 12vw, 5rem);
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .price-original {
+    font-size: 1.1rem;
+    color: var(--muted);
+    text-decoration: line-through;
+    margin-bottom: 20px;
+  }
+
+  .urgency-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(245,200,66,0.12);
+    border: 1px solid rgba(245,200,66,0.35);
+    border-radius: 30px;
+    padding: 8px 22px;
+    color: var(--gold);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 36px;
+  }
+  .urgency-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gold); animation: blink 0.8s ease-in-out infinite; }
+
+  /* ────────────────────────────────────────────
+     WHY CHOOSE
+  ──────────────────────────────────────────── */
+  #why { background: var(--surface); }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+
+  .why-card {
+    background: var(--bg);
+    border: 1px solid rgba(0,207,255,0.1);
+    border-radius: 18px;
+    padding: 30px 26px;
+    transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  }
+  .why-card:hover { border-color: var(--blue); transform: translateY(-6px); box-shadow: 0 16px 50px rgba(0,207,255,0.1); }
+
+  .why-num {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: var(--blue);
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  .why-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; color: #e8e8f0; }
+  .why-card p { font-size: 0.88rem; color: var(--muted); line-height: 1.5; }
+
+  /* ────────────────────────────────────────────
+     BONUS
+  ──────────────────────────────────────────── */
+  .bonus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+
+  .bonus-card {
+    background: linear-gradient(135deg, rgba(245,200,66,0.05), rgba(168,85,247,0.05));
+    border: 1px solid rgba(245,200,66,0.2);
+    border-radius: 18px;
+    padding: 32px 28px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  .bonus-card:hover { border-color: rgba(245,200,66,0.5); box-shadow: 0 0 30px rgba(245,200,66,0.08); }
+  .bonus-card::before {
+    content: 'FREE';
+    position: absolute;
+    top: 16px; right: -28px;
+    background: linear-gradient(135deg, #f5c842, #ffaa00);
+    color: #000;
+    font-family: 'Orbitron', monospace;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 5px 36px;
+    transform: rotate(45deg);
+  }
+
+  .bonus-icon { font-size: 2.2rem; margin-bottom: 14px; display: block; }
+  .bonus-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+  .bonus-card p { font-size: 0.88rem; color: var(--muted); }
+
+  /* ────────────────────────────────────────────
+     FAQ
+  ──────────────────────────────────────────── */
+  #faq { background: var(--surface); }
+
+  .faq-item {
+    background: var(--bg);
+    border: 1px solid rgba(0,207,255,0.1);
+    border-radius: 14px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    transition: border-color 0.3s;
+  }
+  .faq-item.open { border-color: rgba(0,207,255,0.3); }
+
+  .faq-q {
+    width: 100%;
+    background: none;
+    border: none;
+    color: var(--text);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-align: left;
+    padding: 22px 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    transition: color 0.2s;
+  }
+  .faq-q:hover { color: var(--blue); }
+
+  .faq-icon {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,207,255,0.3);
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    flex-shrink: 0;
+    transition: transform 0.3s, background 0.3s;
+  }
+  .faq-item.open .faq-icon { transform: rotate(45deg); background: rgba(0,207,255,0.15); }
+
+  .faq-a {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s;
+    font-size: 0.93rem;
+    color: var(--muted);
+    padding: 0 24px;
+  }
+  .faq-item.open .faq-a {
+    max-height: 200px;
+    padding: 0 24px 22px;
+  }
+
+  /* ────────────────────────────────────────────
+     CONTACT
+  ──────────────────────────────────────────── */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  .contact-card {
+    background: var(--surface2);
+    border: 1px solid rgba(0,207,255,0.12);
+    border-radius: 18px;
+    padding: 32px 28px;
+    text-align: center;
+    transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  .contact-card:hover { border-color: var(--blue); transform: translateY(-5px); box-shadow: 0 0 40px rgba(0,207,255,0.1); }
+  .contact-icon { font-size: 2.8rem; margin-bottom: 14px; display: block; }
+  .contact-card h3 { font-weight: 700; font-size: 1.1rem; margin-bottom: 6px; }
+  .contact-card p { font-size: 0.88rem; color: var(--muted); }
+
+  /* ────────────────────────────────────────────
+     FINAL CTA
+  ──────────────────────────────────────────── */
+  #final-cta {
+    text-align: center;
+    background: var(--surface);
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #final-cta::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 60% at 50% 0%, rgba(0,207,255,0.08) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 50% at 50% 100%, rgba(168,85,247,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .cta-final {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #f5c842, #ff9900);
+    color: #000;
+    font-family: 'Orbitron', monospace;
+    font-size: clamp(0.9rem, 3vw, 1.15rem);
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 22px 56px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: var(--glow-gold);
+    animation: glow-pulse-gold 2s ease-in-out infinite alternate;
+  }
+  .cta-final::after {
+    content: '';
+    position: absolute;
+    top: -50%; left: -70%;
+    width: 40%; height: 200%;
+    background: rgba(255,255,255,0.35);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+  }
+  .cta-final:hover::after { left: 140%; }
+  .cta-final:hover { transform: translateY(-4px) scale(1.04); box-shadow: 0 0 60px #f5c84299, 0 0 120px #f5c84244; }
+
+  @keyframes glow-pulse-gold {
+    from { box-shadow: 0 0 30px #f5c84266, 0 0 60px #f5c84222; }
+    to   { box-shadow: 0 0 60px #f5c842bb, 0 0 100px #f5c84244; }
+  }
+
+  .final-guarantee {
+    margin-top: 28px;
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+  .final-guarantee span { color: var(--blue); }
+
+  /* ────────────────────────────────────────────
+     FOOTER
+  ──────────────────────────────────────────── */
+  footer {
+    background: var(--bg);
+    border-top: 1px solid rgba(0,207,255,0.1);
+    text-align: center;
+    padding: 28px 22px;
+    font-size: 0.82rem;
+    color: var(--muted);
+    position: relative;
+    z-index: 1;
+  }
+  footer .logo-f { font-family: 'Orbitron', monospace; color: var(--blue); }
+
+  /* ────────────────────────────────────────────
+     NAV
+  ──────────────────────────────────────────── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(5,5,8,0.8);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0,207,255,0.1);
+    padding: 0 22px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    font-family: 'Orbitron', monospace;
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, var(--blue), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .nav-cta {
+    background: linear-gradient(135deg, #0091cc, #7c3aed);
+    color: #fff;
+    font-family: 'Orbitron', monospace;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 22px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0 16px rgba(124,58,237,0.4);
+    white-space: nowrap;
+  }
+  .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 0 28px rgba(124,58,237,0.6); }
+
+  /* ────────────────────────────────────────────
+     ANIMATIONS
+  ──────────────────────────────────────────── */
+  @keyframes fadeDown { from { opacity:0; transform:translateY(-20px); } to { opacity:1; transform:translateY(0); } }
+  @keyframes fadeUp   { from { opacity:0; transform:translateY(24px); }  to { opacity:1; transform:translateY(0); } }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ────────────────────────────────────────────
+     RESPONSIVE
+  ──────────────────────────────────────────── */
+  @media (max-width: 600px) {
+    section { padding: 60px 0; }
+    .price-card { padding: 44px 24px; }
+    .cta-final { padding: 18px 36px; }
+    .cta-primary { padding: 16px 32px; }
+    #description .desc-box { padding: 30px 20px; }
+  }
+
+  /* Floating particles */
+  .particle {
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+    animation: float-particle linear infinite;
+    opacity: 0;
+  }
+
+  @keyframes float-particle {
+    0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+    10%  { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Ambient background -->
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+<div class="orb orb3"></div>
+
+<!-- Floating particles container -->
+<div id="particles"></div>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo">NEXOVIBEX</div>
+  <a href="#price" class="nav-cta">GET ₹49 ACCESS</a>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="container">
+    <div class="brand-badge">
+      <div class="dot"></div>
+      NEXOVIBEX · VIRAL CONTENT PACK
+    </div>
+
+    <h1>
+      <span class="gradient-text">1000+ 4K HD</span><br/>
+      Luxury Reels Bundle
+    </h1>
+
+    <p class="subtitle">Upgrade your content with premium luxury visuals</p>
+    <p class="tagline">✦ THIS IS THE FUTURE YOU DESERVE ✦</p>
+
+    <a href="#price" class="cta-primary">
+      🚀 Get Instant Access – ₹49
+    </a>
+
+    <p class="hero-note">⚡ Instant Download &nbsp;·&nbsp; No Watermarks &nbsp;·&nbsp; Lifetime Access</p>
+  </div>
+  <div class="scroll-arrow"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── DESCRIPTION ── -->
+<section id="description">
+  <div class="container">
+    <div class="desc-box reveal">
+      <span class="section-label" style="text-align:center;display:block;margin-bottom:16px;">About the Bundle</span>
+      <p style="font-size:1.08rem;color:#c0c0da;max-width:640px;margin:0 auto;">
+        Whether you run an Instagram luxury page, create YouTube Shorts, or are a video editor looking for premium stock — this bundle gives you <strong style="color:#e8e8f0;">1000+ breathtaking 4K HD clips</strong> of cars, private jets, mansions, cash stacks, and the ultimate lifestyle aesthetic. No editing skills required. Just download, post, and watch your engagement explode.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── HIGHLIGHTS ── -->
+<section id="highlights">
+  <div class="container">
+    <span class="section-label" style="text-align:center;display:block;">What You Get</span>
+    <h2 class="section-title"><span class="gradient-text">Everything Included</span></h2>
+    <div class="highlights-grid">
+      <div class="highlight-card reveal">
+        <div class="highlight-icon">🚫</div>
+        <div class="highlight-text">
+          <strong>No Watermarks</strong>
+          <span>100% clean, ready-to-post clips</span>
+        </div>
+      </div>
+      <div class="highlight-card reveal">
+        <div class="highlight-icon">⚡</div>
+        <div class="highlight-text">
+          <strong>Instant Access</strong>
+          <span>Download immediately after payment</span>
+        </div>
+      </div>
+      <div class="highlight-card reveal">
+        <div class="highlight-icon">♾️</div>
+        <div class="highlight-text">
+          <strong>Lifetime Access</strong>
+          <span>Keep it forever, no subscriptions</span>
+        </div>
+      </div>
+      <div class="highlight-card reveal">
+        <div class="highlight-icon">📽️</div>
+        <div class="highlight-text">
+          <strong>4K HD Quality</strong>
+          <span>Crystal clear ultra-high definition</span>
+        </div>
+      </div>
+      <div class="highlight-card reveal">
+        <div class="highlight-icon">💬</div>
+        <div class="highlight-text">
+          <strong>WhatsApp Support</strong>
+          <span>Dedicated support whenever you need</span>
+        </div>
+      </div>
+      <div class="highlight-card reveal">
+        <div class="highlight-icon">🎁</div>
+        <div class="highlight-text">
+          <strong>Free Bonus Included</strong>
+          <span>Exclusive viral clips + audio list</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── CONTENT ── -->
+<section id="content">
+  <div class="container">
+    <span class="section-label" style="text-align:center;display:block;">Inside the Bundle</span>
+    <h2 class="section-title"><span class="gradient-text">1000+ Premium Clips</span></h2>
+    <div class="content-grid reveal">
+      <div class="content-item"><div class="ci-dot"></div>🚗 Luxury Supercars</div>
+      <div class="content-item"><div class="ci-dot"></div>✈️ Private Jets</div>
+      <div class="content-item"><div class="ci-dot"></div>💰 Money & Cash Stacks</div>
+      <div class="content-item"><div class="ci-dot"></div>🏙️ Luxury Mansions</div>
+      <div class="content-item"><div class="ci-dot"></div>🥂 Elite Lifestyle</div>
+      <div class="content-item"><div class="ci-dot"></div>🌊 Yacht & Ocean Views</div>
+      <div class="content-item"><div class="ci-dot"></div>🌆 City Skylines</div>
+      <div class="content-item"><div class="ci-dot"></div>👑 VIP Experiences</div>
+    </div>
+    <p style="text-align:center;margin-top:28px;color:var(--muted);font-size:0.9rem;" class="reveal">
+      All clips are <strong style="color:var(--blue)">ready-to-use</strong> — optimized for Reels, Shorts & TikTok vertical format
+    </p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── PRICE ── -->
+<section id="price">
+  <div class="container">
+    <span class="section-label" style="text-align:center;display:block;">Pricing</span>
+    <h2 class="section-title"><span class="gradient-text">Limited Time Offer</span></h2>
+
+    <div class="price-card reveal">
+      <span class="price-label">🔥 Special Launch Price</span>
+
+      <div class="price-original">₹999</div>
+      <div class="price-amount gold-text">₹49</div>
+
+      <div style="margin-bottom:10px;color:var(--muted);font-size:0.95rem;">One-time payment · Instant access</div>
+
+      <div class="urgency-badge">
+        <div class="urgency-dot"></div>
+        High Demand &nbsp;·&nbsp; Limited Time
+      </div>
+
+      <br/>
+
+      <a href="https://razorpay.com/payment-button/placeholder" target="_blank" class="cta-primary" style="margin:0 auto;display:inline-flex;">
+        🚀 Get Instant Access – ₹49
+      </a>
+
+      <p style="margin-top:18px;font-size:0.82rem;color:var(--muted);">
+        🔒 100% Secure Payment via Razorpay &nbsp;·&nbsp; UPI, Cards, Net Banking accepted
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── WHY CHOOSE ── -->
+<section id="why">
+  <div class="container">
+    <span class="section-label" style="text-align:center;display:block;">Why Nexovibex</span>
+    <h2 class="section-title"><span class="gradient-text">Why Choose Us</span></h2>
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <span class="why-num">01</span>
+        <h3>No Copyright Issues</h3>
+        <p>All clips are cleared for commercial use. Post freely on any platform without strikes or takedowns.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-num">02</span>
+        <h3>Works Everywhere</h3>
+        <p>Optimized for Instagram Reels, YouTube Shorts, and TikTok. Perfect vertical format, every time.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-num">03</span>
+        <h3>Boost Engagement</h3>
+        <p>Luxury content consistently performs in the top percentile. Watch your views and followers grow.</p>
+      </div>
+      <div class="why-card reveal">
+        <span class="why-num">04</span>
+        <h3>Save Massive Time</h3>
+        <p>No more hours hunting for clips. 1000+ assets at your fingertips in one instant download.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── BONUS ── -->
+<section id="bonus">
+  <div class="container">
+    <span class="section-label" style="text-align:center;display:block;">Exclusive Extras</span>
+    <h2 class="section-title">🎁 <span class="gold-text">Bonus Included</span></h2>
+    <div class="bonus-grid">
+      <div class="bonus-card reveal">
+        <span class="bonus-icon">🎬</span>
+        <h3>Free Viral Clips Pack</h3>
+        <p>Extra bonus clips hand-picked for their viral potential. Trending aesthetics included at no extra cost.</p>
+      </div>
+      <div class="bonus-card reveal">
+        <span class="bonus-icon">🎵</span>
+        <h3>Trending Audio List</h3>
+        <p>A curated list of the hottest trending audios right now — pair them with your clips for maximum reach.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── FAQ ── -->
+<section id="faq">
+  <div class="container">
+    <span class="section-label" style="text-align:center;display:block;">FAQ</span>
+    <h2 class="section-title"><span class="gradient-text">Got Questions?</span></h2>
+
+    <div class="faq-item reveal">
+      <button class="faq-q" onclick="toggleFAQ(this)">
+        How will I receive the bundle after payment?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">Immediately after payment, you'll be redirected to a download page with instant access to all 1000+ clips. A link is also sent via WhatsApp/email for backup.</div>
+    </div>
+
+    <div class="faq-item reveal">
+      <button class="faq-q" onclick="toggleFAQ(this)">
+        Is this truly lifetime access?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">Yes — this is a one-time payment with no recurring fees. Once you download, the files are yours forever. No subscriptions, no renewals.</div>
+    </div>
+
+    <div class="faq-item reveal">
+      <button class="faq-q" onclick="toggleFAQ(this)">
+        Is my payment safe and secure?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">Absolutely. All payments are processed through Razorpay — India's most trusted payment gateway — with full encryption and fraud protection.</div>
+    </div>
+
+    <div class="faq-item reveal">
+      <button class="faq-q" onclick="toggleFAQ(this)">
+        What if I need help or have an issue?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">Our WhatsApp support is available 7 days a week. Reach out any time and we'll resolve your issue quickly — usually within minutes.</div>
+    </div>
+
+    <div class="faq-item reveal">
+      <button class="faq-q" onclick="toggleFAQ(this)">
+        Can I use these clips on Instagram, YouTube & TikTok?
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">Yes! All clips are cleared for use across all major platforms. No copyright claims, no watermarks, no restrictions.</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="container">
+    <span class="section-label" style="text-align:center;display:block;">Support</span>
+    <h2 class="section-title"><span class="gradient-text">We've Got You</span></h2>
+    <div class="contact-grid">
+      <a href="https://wa.me/919999999999" target="_blank" class="contact-card reveal">
+        <span class="contact-icon">💬</span>
+        <h3>WhatsApp Support</h3>
+        <p>Chat with us directly. Fast, friendly, real human support 7 days a week.</p>
+        <p style="color:var(--blue);font-weight:700;margin-top:12px;font-size:0.9rem;">Open WhatsApp →</p>
+      </a>
+      <a href="mailto:support@nexovibex.com" class="contact-card reveal">
+        <span class="contact-icon">📧</span>
+        <h3>Email Us</h3>
+        <p>Prefer email? Drop us a message and we'll respond within a few hours.</p>
+        <p style="color:var(--blue);font-weight:700;margin-top:12px;font-size:0.9rem;">support@nexovibex.com</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ── FINAL CTA ── -->
+<section id="final-cta">
+  <div class="container">
+    <span class="section-label" style="text-align:center;display:block;margin-bottom:20px;">Ready?</span>
+    <h2 class="section-title reveal" style="font-size:clamp(1.6rem,5vw,2.6rem);">
+      Your Luxury Content Era<br/><span class="gradient-text">Starts Right Now</span>
+    </h2>
+
+    <p style="color:var(--muted);max-width:480px;margin:0 auto 40px;text-align:center;font-size:1rem;" class="reveal">
+      Join thousands of creators already posting premium luxury content — all for just ₹49.
+    </p>
+
+    <a href="https://razorpay.com/payment-button/placeholder" target="_blank" class="cta-final reveal">
+      💎 Unlock Bundle Now
+    </a>
+
+    <p class="final-guarantee reveal">
+      🔒 Secure Checkout &nbsp;·&nbsp; <span>Instant Download</span> &nbsp;·&nbsp; <span>Lifetime Access</span>
+    </p>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <p><span class="logo-f">NEXOVIBEX</span> &nbsp;©&nbsp; 2025 · High Quality Viral Content Pack · All rights reserved</p>
+  <p style="margin-top:8px;">Made with 💜 for creators who refuse to settle</p>
+</footer>
+
+<script>
+// ── FAQ TOGGLE ──
+function toggleFAQ(btn) {
+  const item = btn.closest('.faq-item');
+  const wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+  if (!wasOpen) item.classList.add('open');
+}
+
+// ── SCROLL REVEAL ──
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      const delay = Array.from(entry.target.parentElement?.children || []).indexOf(entry.target) * 80;
+      setTimeout(() => {
+        entry.target.classList.add('visible');
+      }, delay);
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+// ── FLOATING PARTICLES ──
+(function createParticles() {
+  const container = document.getElementById('particles');
+  const colors = ['#00cfff', '#a855f7', '#e040fb', '#f5c842'];
+  for (let i = 0; i < 22; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    const size = Math.random() * 4 + 1;
+    const color = colors[Math.floor(Math.random() * colors.length)];
+    const left = Math.random() * 100;
+    const duration = Math.random() * 18 + 12;
+    const delay = Math.random() * 20;
+    p.style.cssText = `
+      width:${size}px; height:${size}px;
+      background:${color};
+      left:${left}%;
+      animation-duration:${duration}s;
+      animation-delay:${delay}s;
+      box-shadow: 0 0 ${size * 3}px ${color};
+    `;
+    container.appendChild(p);
+  }
+})();
+
+// ── SMOOTH SCROLL for all anchor links ──
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', e => {
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+</body>
+</html>
